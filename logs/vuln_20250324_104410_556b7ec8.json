@@ -1,0 +1,27 @@
+{
+    "timestamp": "2025-03-24 10:44:10",
+    "url": "https:\/\/ransomewatch.online\/",
+    "client_ip": "127.0.0.1",
+    "user_agent": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/134.0.0.0 Safari\/537.36",
+    "security_rating": {
+        "level": "Minor Issues",
+        "score": "B+",
+        "color": "success"
+    },
+    "vulnerabilities": [
+        "Information Disclosure",
+        "Missing Security Headers"
+    ],
+    "details": [
+        {
+            "type": "Information Disclosure",
+            "url": "https:\/\/ransomewatch.online\/",
+            "description": "Server version disclosed in HTTP headers: nginx\/1.18.0 (Ubuntu)"
+        },
+        {
+            "type": "Missing Security Headers",
+            "url": "https:\/\/ransomewatch.online\/",
+            "description": "The following security headers are missing: Content-Security-Policy, X-Content-Type-Options, X-Frame-Options, X-XSS-Protection, Strict-Transport-Security, Referrer-Policy"
+        }
+    ]
+}
